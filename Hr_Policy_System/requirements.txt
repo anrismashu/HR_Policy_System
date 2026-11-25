@@ -1,0 +1,18 @@
+# Core
+langchain>=1.5
+langchain-core>=1.8
+langchain-community>=0.4.2
+langchain-text-splitters>=1.1
+langgraph>=1.2
+
+# LLM provider (Groq)
+langchain-groq>=1.1
+# Optional: only if you enable the Mistral provider in agent/llm.py
+# langchain-mistralai
+
+# Retrieval
+faiss-cpu
+
+# App / config
+streamlit>=1.67
+python-dotenv>=1.2
